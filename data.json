@@ -1,0 +1,27 @@
+
+var json = [{
+		"jobTitleName": "Senior Manager",
+		"name": "Samuel Jackson",
+		"email": "samuel@plgmic.com",
+		"image": "img/samuel.jpg",
+		"keyValue":"Leadership"
+	}, {
+		"jobTitleName": "Customer Service Agent",
+		"name": "Karl Heinz",
+		"email": "karl@plgmic.com",
+		"image": "img/karl.jpg",
+		"keyValue":"Communication"
+	}, {
+		"jobTitleName": "Head of Marketing",
+		"name": "Maria Care",
+		"email": "maria@plgmic.com",
+		"image": "img/maria.jpg",
+		"keyValue":"Corporate Social Responsibility"
+	}, {
+		"jobTitleName": "Head of Accounting",
+		"name": "Hans Air",
+		"email": "hans@plgmic.com",
+		"image": "img/hans.jpg",
+		"keyValue":"Accounting"
+	}];  
+

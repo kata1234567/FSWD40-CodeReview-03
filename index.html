@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayLessGetMoreYourInsuranceCompany_Home</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <ul class="headercontent">
+            <li>+43 1 3456 79403</li>
+            <li>info@plgmic.com</li>
+            <li style="float:right">FAQ</li>
+        </ul>
+    </div>
+    <div class="navi">
+        <ul class="navicontent">
+            <li id="companyname"><a href="index.html">PayLessGetMoreInsuranceCompany</a></li>
+            <li id="ourteam"><a href="'teamstart">Our Team</a></li>
+            <li style="float:right"><a href="calculate.html">Check prices</a></li>
+        </ul>
+    </div>
+    <div class="wrapper">
+        <div class="col-12 col-s-12 col-t-12 aboutusstart">
+            <div class="aboutuscontent1">
+                <h2>About Us</h2>
+            </div>
+        </div>
+        <div class="col-12 col-s-12 col-t-12 aboutus1">
+            <div class="aboutuscontent">
+                <h3>We offer you your perfect car insurance </h3>
+                <p>Are you tired of searcing and looking out for a suitable car insurane. We offer you with our unique calculator an easy solution for this issue. Try it out, you will see you will not regret it. </p>
+                <br>
+                <button id="calculationaboutus" type=""><a href="calculate.html">Check prices</a></button>
+            </div>
+        </div>
+        <div class="col-12 col-s-12 teamstart">
+            <div class="team1">
+                <h2>People behind PLGMIC</h2>
+            </div>
+        </div>
+        <div class="col-12 col-s-12 teamcontent">
+            <h3>The members of our Customer Service</h3>
+            <p>Get in contact with us! We will be happy to serve you!</p>
+        </div>
+        <div class="col-s-4 col-3 imgteamcomplete">
+            <div class="imgteam">
+                <figure class="members">
+                    <img id="samuel" src="img/samuel.jpg" alt="Samuel Jackson">
+                    <figcaption class="descriptionimg"><b>Samuel Jackson</b>
+                        <br> samuel@plgmic.com </br>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="col-s-4 col-3 imgteamcomplete">
+            <div class="imgteam">
+                <figure id="members">
+                    <img id="karl" src="img/karl.jpg" alt="Karl Heinz">
+                    <figcaption class="descriptionimg"> <b>Karl Heinz</b>
+                        <br> karl@plgmic.com </br>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="col-s-4 col-3 imgteamcomplete">
+            <div class="imgteam">
+                <figure id="members">
+                    <img id="maria" src="img/maria.jpg" alt="Maria Care">
+                    <figcaption class="descriptionimg"><b> Maria Care</b>
+                        <br> maria@plgmic.com </br>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="col-s-4 col-3 imgteamcomplete">
+            <div class="imgteam">
+                <figure id="members">
+                    <img id="hans" src="img/hans.jpg" alt="Hans Air">
+                    <figcaption class="descriptionimg"> <b>Hans Air</b>
+                        <br> hans@plgmic.com </br>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    
+    <div class ="OurKeyValues">
+     <h3>Our Key Values (Json file)</h3>
+     <script type="text/javascript" src="data.json"></script>
+    <script>
+        for (var i=0; i<json.length; i++){
+            var obj = json[i];
+            document.write(obj.keyValue + "<br>");
+        }
+    </script>   
+    </div>
+
+
+
+
+    <div class="footer">
+        <div class="footercontent">
+            <h4>  Copyright &copy; 2018 PayLessGetMoreYourInsuranceCompany </h4>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayLessGetMoreYourInsuranceCompany_Calculate</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <ul class="headercontent">
+            <li>+43 1 3456 79403</li>
+            <li>info@plgmic.com</li>
+            <li style="float:right">FAQ</li>
+        </ul>
+    </div>
+    <div class="navi">
+        <ul class="navicontent">
+            <li id="companyname"><a href="index.html">PayLessGetMoreInsuranceCompany</a></li>
+            <li id="ourteam"><a href="index.html">Our Team</a></li>
+            <li style="float:right"><a href="calculate.html">Check prices</a></li>
+        </ul>
+    </div>
+    <div class="wrapper">
+        <div class="col-12 col-s-12 calculation">
+            <div class="calculatorstart">
+                <h2>Check your price</h2>
+            </div>
+        </div>
+        <div id="calculator">
+            <form class="col-12 col-s-12 calculation_form">
+                <h2>Check your personal Car Insurance Price</h2>
+                <p class="form_text">Full Name:</p>
+                <input id="fullname" type="text" name="fullname" placeholder="First + Last Name">
+                <p class="form_text">Your Age:</p>
+                <input id="age" type="text" name="age" placeholder="Age">
+                <p class="form_text">Horse Power in kW:</p>
+                <input id="hp" type="number" name="hp" placeholder="eg. 45 kW">
+                <p class="form_text">Gender:</p>
+                <input type="radio" name="gender" value="male">Male
+                <br>
+                <input type="radio" name="gender" value="female" checked> Female
+                <br>
+                <p class="form_text">Country:</p>
+                <select id="countryselect" name="countryselect">
+                    <option class="country">Select:</option>
+                    <option id="austria" value="Austria">Austria</option>
+                    <option id="germany" value="Germany">Germany</option>
+                    <option id="italy" value="Italy">Italy</option>
+                </select>
+                <p class="form_text">Car Modell:</p>
+                <select id="modelselect" name="carmodel">
+                    <option class="model">Select:</option>
+                    <option id="volvo" value="Volvo">Volvo</option>
+                    <option id="bmw" value="BMW">BMW</option>
+                    <option id="audi" value="Audi">Audi</option>
+                    <option id="renault" value="Renault">Renault</option>
+                    <option id="fiat" value="Fiat">Fiat</option>
+                    <option id="mercedes" value="Mercedes">Mercedes</option>
+                    <option id="tesla" value="Tesla">Tesla</option>
+                </select>
+                <br>
+                <br>
+                <div>
+                    <button type="button" id="result" onclick="calculateInsurance()">Calculate your price</button>
+                </div>
+            </form>
+            <p id="output"></p>
+        </div>
+    </div>
+    <div class="footer ">
+        <div class="footercontent ">
+            <h4>Copyright &copy; 2018 PayLessGetMoreYourInsuranceCompany </h4>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
